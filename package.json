@@ -1,0 +1,20 @@
+{
+  "name": "token-ledger-server",
+  "version": "1.0.0",
+  "description": "Express + MongoDB API for the token sales & stock ledger",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
